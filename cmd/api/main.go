@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"goapi/internal/handlers"
 	"net/http"
 
-	"github.com/avukadin/goapi/internal/handlers"
 	"github.com/go-chi/chi"
 	log "github.com/sirupsen/logrus"
 )
