@@ -1,0 +1,8 @@
+//CURL to get marie's coin balance 
+postman request 'http://localhost:8000/account/coins?username=marie' \
+  --header 'Authorization: 789GHI'
+
+
+//CURL to get alex's coin balance 
+postman request 'http://localhost:8000/account/coins?username=alex' \
+  --header 'Authorization: 123ABC'
